@@ -10,3 +10,5 @@ CREATE TABLE `user_details` (
   `time` timestamp,
   PRIMARY KEY (`user_id`, `time`)
 );
+
+select * from user_details order by time desc;
